@@ -12,7 +12,7 @@ Convert a Python program into a stand-alone executable:
 $ echo 'print("Hello Python")' > hello.py
 
 # Convert hello.py into a stand-alone executable result in an ELF executable as 'dist/hello'
-$ docker run -v $(pwd):/code pyinstaller --onefile --noconfirm hello.py
+$ docker run -v $(pwd):/code coopermaa/pyinstaller --onefile --noconfirm hello.py
 
 # Run the executable
 $ dist/hello

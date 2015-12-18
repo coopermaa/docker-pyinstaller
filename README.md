@@ -1,7 +1,7 @@
 # docker-pyinstaller
 [![](https://badge.imagelayers.io/coopermaa/pyinstaller:latest.svg)](https://imagelayers.io/?images=coopermaa/pyinstaller:latest 'Get your own badge on imagelayers.io')
 
-Docker image for pyinstaller
+Docker image for [pyinstaller](http://www.pyinstaller.org/)
 
 ## How to use this image
 
@@ -21,5 +21,4 @@ Hello Python
 
 > ## A special note
 > 
-> * pyinstaller cannot run as root user, you have to run the container as a non-root user.
-
+> * [pyinstaller](http://www.pyinstaller.org/) cannot run as root user, you have to run the container as a non-root user.
